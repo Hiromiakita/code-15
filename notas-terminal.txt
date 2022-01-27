@@ -1,0 +1,23 @@
+Terminal Linux
+Comandos de Linux
+Windows -> Powershell
+No podemos movernos con un click, usamos flechas del teclado
+Una línea de código o un comando nos permite ejecutar una acción
+
+Comandos
+pwd -> me muestra en qué directorio o ubicación de mi computadora me encuentro
+
+Ejemplos directorios
+Users/lupita <- directorio
+Users/vakita/Documents/repos/master-code/flags <- estructura de folders
+Users/vakita/Documents/alive2021-2/README.md <- llegamos a un archivo
+Una extensión en archivo define el tipo de archivo que es (imágenes, documentos, videos, comprimidos)
+
+ls -> me permite ver los elementos que hay en mi ubicación actual
+cd -> me permite ingresar a una carpeta o ir a un directorio específico
+cd .. -> me lleva un nivel atrás de la ubicación actual
+clear -> me permite limpiar la terminal en la vista actual
+
+*Atajos
+tabulador -> autocompletar directorios (nombres de carpetas o archivos)
+flechas arriba abajo del teclado -> nos permite ver y reutilizar comandos anteriores

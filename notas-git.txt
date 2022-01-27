@@ -1,0 +1,3 @@
+una vez instalado git en nuestra computadora...
+
+git --version -> revisar la versión instalada
