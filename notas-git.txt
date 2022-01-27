@@ -1,3 +1,42 @@
 una vez instalado git en nuestra computadora...
 
 git --version -> revisar la versión instalada
+
+Pasos para crear un repositorio
+1. Ubicarme en la terminal en la carpeta que quiero convertir en un repositorio
+(repositorio -> proyecto)
+2. Una vez ubicados en la carpeta desde la terminal escribiremos el siguiente comando:
+git init -> Nos ayuda a avisar a la carpeta que es un proyecto de git
+git status -> Nos muestra el estado de nuestro proyecto
+
+los comandos de git sólo funcionan en carpetas que están identicadas como repositorios de git (git init)
+3. Añadir archivos a la carpeta 
+    Ejemplo:
+    echo hola > test.txt
+    
+4. git status -> Nos muestra el estado de nuestro proyecto
+
+* Archivos en color rojo: pendientes por seleccionar para almacenar
+
+5. git add . -> Para preparar nuestro archivos para guardarlos en el historial
+6. git status -> Nos muestra el estado de nuestro proyecto
+
+*Archivos en verde significa que están listos para almacenarse en el historial de camhbios
+
+7. git commit -m "primeros archivos del curso" -> añadir un mensaje al guardado de archivos en el historial + guardar en el historial
+
+* Hasta este punto ya hemos guardo cambios en el historial de nuestro repositorio
+* Todo esto sólo existe de forma local (en nuestro equipo)
+
+
+Desde github.com con nuestra cuenta
+
+Crearemos un repositorio que vincularemos con el repositorio de nuestra computadora
+1. Crear nuevo repositorio (nombre/público)
+2. Copiar las tres últimas líneas de tu repositorio:
+
+git remote add origin https://github.com/BLABALBALBALBABA
+git branch -M main
+git push -u origin main
+
+DAR PERMISOS DESDE EL EXPLORADOR
