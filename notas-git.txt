@@ -46,3 +46,13 @@ git branch -M main
 git push -u origin main
 
 DAR PERMISOS DESDE EL EXPLORADOR
+
+PARA SUBIR CAMBIOS NUEVOS DE NUESTRO repositorio
+0. Hacer una modificación (crear/añadir un archivo o modificar un archivo existente)
+1. En la terminal me ubico en la carpeta de mi repositorio
+2. git status
+3. git add . (añadir todos los archivos con cambios)
+    ** git add nombreDelArchivo.ext
+4. git status 
+5. git commit -m "mensaje para acompañar a los cambios"
+6. git push
