@@ -1,3 +1,9 @@
+NOTAS.
+
+Git -> Controlador de versiones
+
+0. Instalar git en nuestra computadora
+
 una vez instalado git en nuestra computadora...
 
 git --version -> revisar la versión instalada
