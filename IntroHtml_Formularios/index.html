@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Formularios</title>
+  </head>
+  <body>
+    <form action="" method="get">
+      <label for="nombre">Ingresa tu nombre</label>
+      <input type="text" name="nombre" id="nombre" />
+      <br />
+      <label for="edad">Ingresa tu edad</label>
+      <input type="number" name="edad" id="edad" />
+      <br />
+      <label for="email">Ingresa tu email</label>
+      <input type="email" name="email" id="email" />
+      <br />
+      <label for="biografia">Que te gusta?</label>
+      <textarea name="biografia" id="biografía"></textarea>
+      <br />
+      <select name="cursos" id="cursos">
+        <!-- Lo que se manda al servidor es lo que viene dentro del value -->
+        <option value="Master en Coding">Master en Conding</option>
+        <option value="Data Science">Data Science</option>
+      </select>
+      <br />
+      <input type="checkbox" name="terminos" id="terminos" />
+      <label for="terminos">Acepto terminos y condiciones</label>
+      <br />
+      <input type="checkbox" name="terminos2" id="terminos2" />
+      <label for="terminos2">Acepto terminos y condiciones 2</label>
+      <br />
+      <p>Animal favorito</p>
+      <input type="radio" name="animal" id="perro" />
+      <label for="perro">Perro</label>
+      <br />
+      <input type="radio" name="animal" id="gato" />
+      <label for="gato">Gato</label>
+      <br />
+      <button type="submit">Enviar</button>
+    </form>
+  </body>
+</html>

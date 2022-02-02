@@ -1,0 +1,27 @@
+# Referencia de selectores
+https://developer.mozilla.org/es/docs/Learn/CSS/Building_blocks/Selectors#tabla_de_referencia_de_selectores
+
+# Documentación CSS
+https://www.w3schools.com/css/default.asp
+
+# Buenas practicas CSS
+https://www.eniun.com/buenas-practicas-css-codigo/
+
+Practica CSS:
+- Color de nav: #c72d82
+- Color letra todo el nav: blanco
+
+- Color titulo, boton, otros posts del main: #41a4dd
+
+- Color footer (div superior): #c72d82
+- Color footer (div inferior): #9c2467
+- Color letra todo el footer: blanco
+
+De la documentación revisar:
+- Align
+- Padding
+- Margins
+- Colors
+- Links
+- Fonts
+    - Size
