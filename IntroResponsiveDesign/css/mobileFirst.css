@@ -1,0 +1,41 @@
+/* Mobile first */
+
+/* Aplicable a dispositivos con un width menor a 400px */
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: red;
+}
+
+/* Acomodo inicual */
+/* Imágenes en columna */
+
+.img {
+   display: block;
+   width: 100%;
+}
+
+
+/* Tablet */
+@media screen and (min-width: 401px){
+    body {
+        background-color: rosybrown;
+    }
+    
+}
+
+@media screen and (min-width: 701px){
+    body {
+        background-color: royalblue;
+    }
+}
+
+@media screen and (min-width: 1001px){
+    body {
+        background-color: skyblue;
+    }
+}
