@@ -1,0 +1,38 @@
+/* Desktop First */
+
+/* Aplicable a dispositivos con un width mayor a 1000px */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: blue;
+}
+
+/* Laptop */
+@media screen and (max-width: 1000px) {
+    body {
+        background-color: coral;
+    }
+    .titulo {
+        display: none;
+    }
+}
+
+/* Tablet */
+@media screen and (max-width: 700px) {
+    body {
+        background-color: darkgreen;
+    }
+}
+
+/* Smartphone */
+@media screen and (max-width: 400px) and (min-width: 1px) {
+    body {
+        background-color: purple;
+    }
+    .titulo {
+        display: block;
+    }
+}
