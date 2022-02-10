@@ -1,0 +1,54 @@
+/* Desktop */
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.contenedor-azul {
+    background-color: blue;
+    width: 33.3%;
+    /* vh: view * height*/ 
+    height: 100vh;
+    display: inline-block;
+    /* margin: 2px; */
+    border: 5px solid black;
+    box-sizing: border-box;
+}
+
+.contenedor-naranja {
+    background-color: orange;
+    width: 33.3%;
+    /* vh: view * height*/ 
+    height: 100vh;
+    display: inline-block;
+    /* margin: 2px; */
+    border: 5px solid black;
+    box-sizing: border-box;
+}
+
+/* Tablet */
+@media screen and (max-width: 700px) {
+    .contenedor-azul {
+        width: 50%;
+        height: 50vh;
+    }
+    .contenedor-naranja {
+        display: block;
+        width: 100%;
+        height: 50vh;
+    }
+}
+
+/* Smartphone */
+@media screen and (max-width: 400px){
+    .contenedor-azul {
+        width: 100%;
+        height: 33.3vh;
+        display: block;
+    }
+    .contenedor-naranja {
+        height: 33.3vh;
+    }
+    
+}

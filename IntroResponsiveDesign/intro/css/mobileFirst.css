@@ -25,12 +25,18 @@ body {
     body {
         background-color: rosybrown;
     }
-    
+    .img {
+        display: inline;
+        width: 50%;
+    }
 }
 
 @media screen and (min-width: 701px){
     body {
         background-color: royalblue;
+    }
+    .img {
+        width: 25%;
     }
 }
 
