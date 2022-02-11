@@ -1,0 +1,25 @@
+* {
+    margin: 0;
+    padding: 0;
+} 
+.contenedor {
+    background-color: black;
+    /* contenedor flexible */
+    /* default: fila */
+    display: flex;
+    /* flex-direction: column-reverse; */
+    /* row (default), row-reverse, column, column-reverse */
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    height: 800px;
+    align-items: last baseline;
+}
+
+.elemento {
+    background-color: coral;
+    width: 50px;
+}
+
+.img {
+    width: 200px;
+}
